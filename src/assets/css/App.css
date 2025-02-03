@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-purple: #6a0dad; /* Purple */
+  --secondary-purple: #9b4dca; /* Lighter purple */
+  --light-purple: #b96eff; /* Soft light purple */
+  --dark-purple: #3e0b7f; /* Darker purple */
+  --black: #000000; /* Black */
+  --white: #ffffff; /* White */
+}
+
+.navbar {
+  display: flex;
+  justify-items: center;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+  font-size: 30px;
+}
+
+.setup {
+  display: flex;
+  flex-direction: column;
+  min-height: 100dvh;
+}
