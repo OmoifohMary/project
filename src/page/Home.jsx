@@ -1,5 +1,7 @@
 import "../assets/css/home.css";
+import { useHook } from "../contexts";
 const Home = () => {
+  const { count, myDelete } = useHook();
   return (
     <div className="body">
       <h2>About Me</h2>
@@ -11,6 +13,8 @@ const Home = () => {
           specialize in full-stack development and have experience working with
           a variety of technologies.
         </p>
+        <h4>{count}</h4>
+        <button onClick={myDelete}>increase</button>
       </div>
     </div>
   );

@@ -7,6 +7,8 @@ import {
   Homelayout,
   Home,
   Resources,
+  Github,
+  Mygithub,
 } from "./page";
 const router = createBrowserRouter([
   {
@@ -21,7 +23,10 @@ const router = createBrowserRouter([
         path: "Login",
         element: <Login />,
       },
-
+      {
+        path: "Mygithub",
+        element: <Mygithub />,
+      },
       {
         path: "AboutUs",
         element: <AboutUs />,
@@ -35,6 +40,10 @@ const router = createBrowserRouter([
       {
         path: "Resources",
         element: <Resources />,
+      },
+      {
+        path: "Github",
+        element: <Github />,
       },
     ],
   },
